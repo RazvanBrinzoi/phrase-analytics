@@ -2,7 +2,7 @@ import StatisticsWrapper from "./StatisticsWrapper";
 import Textarea from "./Textarea";
 import StatisticsCard from "./StatisticsCard";
 import { useMemo, useState } from "react";
-import { FACEBOOK_CHAR_LIMIT, INSTAGRAM_CHAR_LIMIT } from "./constants";
+import { FACEBOOK_CHAR_LIMIT, INSTAGRAM_CHAR_LIMIT } from "../constants";
 
 export default function AppContainer() {
   const [text, setText] = useState("");
