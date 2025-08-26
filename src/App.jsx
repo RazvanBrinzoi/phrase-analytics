@@ -1,5 +1,15 @@
+import AppContainer from "./AppContainer";
+import Footer from "./Footer";
+import Header from "./Header";
+
 function App() {
-  return <>test</>;
+  return (
+    <>
+      <Header />
+      <AppContainer />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
