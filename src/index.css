@@ -137,6 +137,10 @@ body {
 }
 
 @media (max-width: 1150px) {
+  .warning {
+    position: relative;
+  }
+
   .container {
     width: 85vw;
     flex-direction: column;
